@@ -57,8 +57,8 @@ Design of the R System
 
 The R system is divided into 2 conceptual parts:
 
-1.) The "base" R system that you download from CRAN
-2.) Everything else
+1. The "base" R system that you download from CRAN
+2. Everything else
 
 R functionality is divided into a number of packages:
 
