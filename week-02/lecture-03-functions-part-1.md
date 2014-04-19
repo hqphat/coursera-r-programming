@@ -1,4 +1,4 @@
-Functions
+Functions - Part 1
 =========
 
 Functions in R are created using the function() directive and are stored as R objects just like anything else. In particular, they are R objects of class "function".
