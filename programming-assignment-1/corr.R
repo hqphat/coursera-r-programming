@@ -35,5 +35,5 @@ corr <- function(directory, threshold = 0) {
     }
 
     ## Return a numeric vector of correlations
-    round(correlations, 5)
+    correlations
 }
