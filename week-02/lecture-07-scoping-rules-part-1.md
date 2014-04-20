@@ -53,7 +53,7 @@ Consider the following function.
 
 This function has 2 formal arguments x and y. In the body of the function there is another symbol z. In this case z is called a free variable. The scoping rules of a language determine how values are assigned to free variables. Free variables are not formal arguments and are not local variables (assigned inside the function body).
 
-Lexical scoping inR means that the values of free variables are searched for in the environment in which the function was defined.
+Lexical scoping in R means that the values of free variables are searched for in the environment in which the function was defined.
 
 What is an environment?
 
