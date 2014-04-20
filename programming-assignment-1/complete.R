@@ -14,18 +14,18 @@ complete <- function(directory, id = 1:332) {
     for(i in id) {
 
         ## Pad the i to create a filename
-        filename = sprintf("%03d.csv", i)
+        filename <- sprintf("%03d.csv", i)
         filepath <- paste(directory, filename, sep="/")
 
         ## Load the data
         data <- read.csv(filepath)
-        
+
         ## Store the id
-        ids = c(ids, i)
-        
+        ids <- c(ids, i)
+
         ## Calculate and store the count of complete cases
-        completeCases = data[complete.cases(data),]
-        counts = c(counts, nrow(completeCases))
+        completeCases <- data[complete.cases(data),]
+        counts <- c(counts, nrow(completeCases))
     }
 
     ## Return the data frame
