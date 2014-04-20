@@ -7,3 +7,5 @@
 # R data files from past sessions
 .Rdata
 .Rproj.user
+
+/programming-assignment-1/.DS_Store
