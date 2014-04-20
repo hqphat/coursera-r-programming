@@ -15,7 +15,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
 		for(i in id) {
 
             ## Pad the i to create a filename
-            filename = sprintf("%03d.csv", i)
+            filename <- sprintf("%03d.csv", i)
             filepath <- paste(directory, filename, sep="/")
 
             ## Load the data
@@ -28,7 +28,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
 			d <- d[!is.na(d)]
 
             ## append to our vector
-            vals = c(vals, d)
+            vals <- c(vals, d)
 		}
 
         ## Return the value rounded to 3 dec places
