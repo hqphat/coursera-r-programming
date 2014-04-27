@@ -42,6 +42,7 @@ Suppose we want to simulate from a Poisson model
 	   0.00    1.00    1.00    1.55    2.00    6.00 
 	> plot(x, y)
 
+![Poisson Distribution](img/lecture-03-poisson-distribution.png?raw=true)
 
 Random Sampling
 ---------------
