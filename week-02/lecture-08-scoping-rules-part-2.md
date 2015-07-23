@@ -3,7 +3,7 @@ Scoping Rules - Part 2
 
 Why does it matter?
 
-* Typically a function is defined int eh global environment so that the values of free variables are found in the user's workspace
+* Typically a function is defined in the global environment so that the values of free variables are found in the user's workspace
 * This behavior is logical for most people and is usually the "right thing" to do
 * However, in R you can have functions defined inside other functions
 	* Languages live C don't let you do this
